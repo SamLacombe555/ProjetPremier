@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Magasin.Classes.Inventaire">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAFAIAAAEAAAAAAAAAAAAAAAAAAQQAAA=</HashCode>
+      <FileName>Classes\Inventaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Classes.Magasin">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAIAAAIQQIAAAABAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Magasin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
