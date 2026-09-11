@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Magasin.Classes
 {
-    public class Magasin
+    public class Client
     {
         public int Compte
         {
@@ -23,7 +23,7 @@ namespace Magasin.Classes
             }
         }
 
-        public int Utilisateurs
+        public int Panier
         {
             get => default;
             set
@@ -31,27 +31,37 @@ namespace Magasin.Classes
             }
         }
 
-        public void AjoutUtilisateur()
+        public void AchatItem()
         {
             throw new System.NotImplementedException();
         }
 
-        public void Authentification()
+        public void AcheterPanier()
         {
             throw new System.NotImplementedException();
         }
 
-        public void GetUtilisateur()
+        public void AfficherPanier()
         {
             throw new System.NotImplementedException();
         }
 
-        public void MMagasin()
+        public void AjouterAuPanier()
         {
             throw new System.NotImplementedException();
         }
 
-        public void VendreItem()
+        public void MethodeClient()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void ViderPanier()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void VoirInventaire()
         {
             throw new System.NotImplementedException();
         }

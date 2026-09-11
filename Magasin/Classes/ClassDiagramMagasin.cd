@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Magasin.Classes.Inventaire">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAFAIAAAEAAAAAAAAAAAAAAAAAAQQAAA=</HashCode>
+      <FileName>Classes\Inventaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Classes.Magasin">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAIAAAKQQIAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Magasin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Compte">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIABAAEAAAAAABAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Compte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Utilisateur">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAgEAAAEAIAAACAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilisateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Client">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAgAAEAAAIQAAAABAgAAAAAEAAAAAAAAIA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Classes.ItemIdException">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemIdException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Classes.ItemIdUniqueException">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemIdUniqueException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Magasin.Classes.ItemType">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABAAAAAASAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

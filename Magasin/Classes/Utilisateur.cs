@@ -5,9 +5,9 @@ using System.Text;
 
 namespace Magasin.Classes
 {
-    public class Magasin
+    public class Utilisateur
     {
-        public int Compte
+        public int EstGestionnaire
         {
             get => default;
             set
@@ -15,7 +15,7 @@ namespace Magasin.Classes
             }
         }
 
-        public int Inventaire
+        public int Id
         {
             get => default;
             set
@@ -23,7 +23,7 @@ namespace Magasin.Classes
             }
         }
 
-        public int Utilisateurs
+        public int MDP
         {
             get => default;
             set
@@ -31,9 +31,12 @@ namespace Magasin.Classes
             }
         }
 
-        public void AjoutUtilisateur()
+        public int Nom
         {
-            throw new System.NotImplementedException();
+            get => default;
+            set
+            {
+            }
         }
 
         public void Authentification()
@@ -41,17 +44,12 @@ namespace Magasin.Classes
             throw new System.NotImplementedException();
         }
 
-        public void GetUtilisateur()
+        public void ToString()
         {
             throw new System.NotImplementedException();
         }
 
-        public void MMagasin()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void VendreItem()
+        public void MethodeUtilisateur()
         {
             throw new System.NotImplementedException();
         }
