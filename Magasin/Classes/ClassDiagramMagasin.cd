@@ -21,7 +21,7 @@
       <FileName>Compte.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Magasin.Utilisateur">
+  <Class Name="Utilisateur">
     <Position X="9.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAgEAAAEAIAAACAQAAAAAAAAAAAAAAA=</HashCode>
