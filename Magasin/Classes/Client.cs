@@ -1,7 +1,8 @@
 ﻿
 namespace Magasin.Classes
 {
-    public class Client
+    // Déclaration d'une classe parent abstrait.
+    public abstract class Client
     {
         // Déclaration de paramètres.
         public Compte Compte { get; set; }
@@ -16,7 +17,6 @@ namespace Magasin.Classes
             Panier = panier;
         }
 
-
         // Déclaration de méthodes.
         public void AchatItem(string itemAcheter)
         {
@@ -30,7 +30,6 @@ namespace Magasin.Classes
                     Console.WriteLine("Items acheter");
             }
         }
-
 
         public void AcheterPanier()
         {
@@ -56,22 +55,24 @@ namespace Magasin.Classes
 
         public void AjouterAuPanier(string ItemAjouter)
         {
+            /// Fonction qui ajoute un item au "panier".
             Panier.Add(ItemAjouter);
-        }
-
-        public void MethodeClient()
-        {
-            throw new System.NotImplementedException();
         }
 
         public void ViderPanier()
         {
-            throw new System.NotImplementedException();
+            /// Fonction qui vide le "panier".
+            Panier.Clear();
         }
 
         public void VoirInventaire()
         {
-            throw new System.NotImplementedException();
+            /// Fonction qui montre le contenu dd "inventaire".
+            foreach (var item in Inventaire)
+            {
+                Console.WriteLine(item);
+            }
         }
+
     }
 }

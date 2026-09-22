@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
 namespace Magasin.Classes
 {
-    public class Utilisateur
+    // Déclaration d'une classe enfant à "Client".
+    public class Utilisateur : Client
     {
+        // Déclaration de paramètre.
+        public Utilisateur(Compte compte, List<string> inventaire, List<string> panier) :
+            base(compte, inventaire, panier) { }
+
         public int EstGestionnaire
         {
             get => default;
@@ -32,6 +33,14 @@ namespace Magasin.Classes
         }
 
         public int Nom
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public int a
         {
             get => default;
             set

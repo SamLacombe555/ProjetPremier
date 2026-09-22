@@ -10,29 +10,8 @@
   <Class Name="Magasin.Classes.Magasin">
     <Position X="4" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAEAAAAIAAAKQQIAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAEAAAAIAAAIQQIAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\Magasin.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Magasin.Compte">
-    <Position X="11" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAIABAAEAAAAAABAACAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Compte.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Utilisateur">
-    <Position X="9.25" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAgEAAAEAIAAACAQAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Utilisateur.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Magasin.Client">
-    <Position X="9.25" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAFAAAAAgAAEAAAIQAAAABAgAAAAAEAAAAAAAAIA=</HashCode>
-      <FileName>Client.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Magasin.Classes.ItemIdException">
@@ -47,6 +26,20 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Classes\ItemIdUniqueException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Classes.Client">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAEAAAIQAAAABAgAAAAAEAAAAAAAAIA=</HashCode>
+      <FileName>Classes\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magasin.Classes.Compte">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEAAAAAABAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Compte.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Magasin.Classes.ItemType">

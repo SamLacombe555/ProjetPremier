@@ -7,7 +7,7 @@ namespace Magasin.Classes
 {
     public class Magasin
     {
-        public int Compte
+        public Compte Compte
         {
             get => default;
             set
@@ -23,12 +23,19 @@ namespace Magasin.Classes
             }
         }
 
-        public int Utilisateurs
+        public string Utilisateurs
         {
             get => default;
             set
             {
             }
+        }
+
+        public Magasin(Compte compte, int inventaire, string utilisateurs)
+        {
+            Compte = compte;
+            Inventaire = inventaire;
+            Utilisateurs = utilisateurs;
         }
 
         public void AjoutUtilisateur()
@@ -42,11 +49,6 @@ namespace Magasin.Classes
         }
 
         public void GetUtilisateur()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void MMagasin()
         {
             throw new System.NotImplementedException();
         }
